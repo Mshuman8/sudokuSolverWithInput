@@ -3,7 +3,7 @@ import sudoku
 #If you would like to play and need a board, there is an image uploaded which is titled Board4.png
 
 ##Asking for input
-print("Welcome to Sudoku Solver. This works best for easy and medium puzzles.")
+print("Welcome to Sudoku Solver. This works best for easy and medium puzzles.\n")
 row1 = input("Please enter all the values of the first (top) row. For a blank, enter a space.\n")
 row2 = input("Please enter all the values of the second (from top) row. For a blank, enter a space.\n")
 row3 = input("Please enter all the values of the third (from top) row. For a blank, enter a space.\n")
