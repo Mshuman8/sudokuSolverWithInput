@@ -1,6 +1,6 @@
 import sudoku
 
-#If you would like to play and need a board, there is an image uploaded which is titled Board4.png
+#If you would like to play and need a board, there is an image uploaded which is titled Board4.png 
 
 ##Asking for input
 print("Welcome to Sudoku Solver. This works best for easy and medium puzzles.\n")
