@@ -1,5 +1,25 @@
 import sudoku
 
+#If you would like to play and need a board, there is an image uploaded which is titled Board4.png
+
+##Asking for input
+row1 = input("Please enter all the values of the first (top) row. For a blank, enter a space.\n")
+row2 = input("Please enter all the values of the second (from top) row. For a blank, enter a space.\n")
+row3 = input("Please enter all the values of the third (from top) row. For a blank, enter a space.\n")
+row4 = input("Please enter all the values of the fourth (from top) row. For a blank, enter a space.\n")
+row5 = input("Please enter all the values of the fifth (from top) row. For a blank, enter a space.\n")
+row6 = input("Please enter all the values of the sixth (from top) row. For a blank, enter a space.\n")
+row7 = input("Please enter all the values of the seventh (from top) row. For a blank, enter a space.\n")
+row8 = input("Please enter all the values of the eighth (from top) row. For a blank, enter a space.\n")
+row9 = input("Please enter all the values of the ninth (from top) row. For a blank, enter a space.\n")
+
+sudoku_string = row1 + row2 + row3 + row4 + row5 + row6 + row7 + row8 + row9
+
+board5 = sudoku.Board(sudoku_string)
+board5.make_solve_print()
+
+
+
 # board1 = sudoku.Board("  88 947  2  6   1 7     694     1    21 88 63  94  8823 75 6945    38  69   235 ")
 
 # board1.make_board()
@@ -25,19 +45,3 @@ import sudoku
 
 # ##Board solved
 # board4.make_solve_print()
-
-##Asking for input
-row1 = input("Please enter all the values of the first (top) row. For a blank, enter a space.\n")
-row2 = input("Please enter all the values of the second (from top) row. For a blank, enter a space.\n")
-row3 = input("Please enter all the values of the third (from top) row. For a blank, enter a space.\n")
-row4 = input("Please enter all the values of the fourth (from top) row. For a blank, enter a space.\n")
-row5 = input("Please enter all the values of the fifth (from top) row. For a blank, enter a space.\n")
-row6 = input("Please enter all the values of the sixth (from top) row. For a blank, enter a space.\n")
-row7 = input("Please enter all the values of the seventh (from top) row. For a blank, enter a space.\n")
-row8 = input("Please enter all the values of the eighth (from top) row. For a blank, enter a space.\n")
-row9 = input("Please enter all the values of the ninth (from top) row. For a blank, enter a space.\n")
-
-sudoku_string = row1 + row2 + row3 + row4 + row5 + row6 + row7 + row8 + row9
-
-board5 = sudoku.Board(sudoku_string)
-board5.make_solve_print()
